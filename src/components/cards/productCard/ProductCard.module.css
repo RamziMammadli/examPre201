@@ -1,0 +1,34 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 500px;
+    width: 20%;
+    border: 1px solid gray;
+    border-radius: 15px;
+    padding: 15px;
+    margin-top: 15px;
+    justify-content: space-between;
+}
+.container img {
+    height: 35%;
+    width: 100%;
+}
+.textBox{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.btnBox{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+}
+
+@media screen and (min-width:300px) and (max-width:576px) {
+    .container {
+        width: 80%;
+    }
+}
